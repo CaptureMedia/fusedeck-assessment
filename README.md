@@ -8,17 +8,6 @@ Please have the application ready to run at the start of the assessment. The app
 
 A developer will be joining you during the assessment. You will not be judged by how fast you are or how far you get with the implementation. We are more interested in how you approach problems and how you collaborate with other developers.
 
-## Possible database schema
-```
-category                    todo
-======                      ======
-id(INT)PK                   id(INT)PK
-name (VARCHAR)              category_id(INT)
-                            title(VARCHAR)
-                            description(VARCHAR)
-                            done(BOOLEAN)
-```
-
 ## Acceptance criteria
 - A list of todo's with the category that belongs to that todo
 - Show the name und the description of the todo's in the list
@@ -30,6 +19,17 @@ name (VARCHAR)              category_id(INT)
 - I can create a new category
 - I can edit a category
 - I can delete a category
+
+## Possible database schema
+```
+category                    todo
+======                      ======
+id(INT)PK                   id(INT)PK
+name (VARCHAR)              category_id(INT)
+                            title(VARCHAR)
+                            description(VARCHAR)
+                            done(BOOLEAN)
+```
 
 ## How to run this app
 This application was tested on Mac and (Debian based) Linux. In case it doesn't run on your machine, get in touch with us as soon as possible and tell us your computer specs.
