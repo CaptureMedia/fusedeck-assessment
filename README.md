@@ -34,12 +34,12 @@ name (VARCHAR)              category_id(INT)
 ## How to run this app
 This application was tested on Mac and (Debian based) Linux. In case it doesn't run on your machine, get in touch with us as soon as possible and tell us your computer specs.
 
-### On docker compose
+### On docker-compose
 ```sh
 docker-compose up
 ```
 
-### On Node
+### On node
 ```sh
 yarn install
 yarn start-dev
@@ -48,5 +48,5 @@ yarn start-dev
 ## Rules
 - You are open how to solve it
 - We are open for your questions
-- The internet is open to use
-- Do not do the test in advanced
+- The internet is open to use for everything
+- Do not do the assessment in advanced
